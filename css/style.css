@@ -1,0 +1,152 @@
+/* 
+#F6808C text
+#FA5A64 buttons notification
+#0C2E4E buttons text
+#F6FAFE background color
+
+*/
+
+/* BASIC RESET  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Lato", cursive;
+  color: #0c2e4e;
+}
+
+/* REUSABLE COMPONENTS */
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* ------------ HEADER ------------ */
+.header {
+  background-image: url("../img/mediyoga-main.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  display: inline-block;
+  width: 10px;
+}
+
+/* NAVIGATION */
+.nav {
+  padding-top: 20px;
+}
+
+.main-nav {
+  display: inline-block;
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
+.main-nav li a {
+  color: #0c2e4e;
+}
+
+.main-nav li:nth-child(7) {
+  margin-right: 5em;
+}
+
+.main-nav li:nth-child(8) {
+  margin-right: 1em;
+}
+
+/* Links */
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+/* Headers */
+h1 {
+  font-size: 300%;
+  margin-bottom: 2%;
+}
+
+h2 {
+  margin-bottom: 2%;
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: -1px;
+}
+
+h3 {
+  margin: 5% 0;
+}
+
+h4 {
+  color: #f6808c;
+  text-shadow: 0 0 1px #f6808c;
+  text-transform: uppercase;
+  margin-bottom: 0.5%;
+  font-size: 0.9em;
+}
+
+/* Buttons */
+
+.btn:link,
+.btn:visited {
+  background-color: #0c2e4e;
+  color: white;
+  padding: 0.7em 1.8em;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 90%;
+  margin-right: 0.3em;
+}
+
+/* Paragraphs */
+
+.text-box p {
+  width: 25em;
+  margin-bottom: 7%;
+}
+
+.plan {
+  background-color: #fff;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.plan-img {
+  width: 100%;
+}
+
+.plans-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+  text-align: center;
+  margin: 5% 0;
+}
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+ */
