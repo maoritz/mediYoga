@@ -86,7 +86,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 2%;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 2em;
   letter-spacing: -1px;
@@ -100,7 +100,7 @@ h4 {
   color: #f6808c;
   text-shadow: 0 0 1px #f6808c;
   text-transform: uppercase;
-  margin-bottom: 0.5%;
+  margin-bottom: 10px;
   font-size: 0.9em;
 }
 
@@ -139,9 +139,32 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-section {
+.programs-section {
   text-align: center;
   margin: 5% 0;
+}
+
+.about-us-section {
+  height: 65vh;
+  background-color: #f6fafe;
+}
+
+.about-us-image {
+  height: 65vh;
+}
+
+.about-us-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 10%;
+}
+
+.about-us-box {
+  text-align: left;
+  margin-top: 22%;
+}
+
+.about-us-box p {
+  margin-bottom: 10%;
 }
 /* 
 320px — 480px: Mobile devices.
