@@ -81,8 +81,8 @@ a:visited {
 
 /* Headers */
 h1 {
-  font-size: 300%;
-  margin-bottom: 2%;
+  font-size: 3em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -93,7 +93,7 @@ h2 {
 }
 
 h3 {
-  margin: 5% 0;
+  margin: 1em 0;
 }
 
 h4 {
@@ -121,12 +121,12 @@ h4 {
 
 .text-box p {
   width: 25em;
-  margin-bottom: 7%;
+  margin-bottom: 4em;
 }
 
 .plan {
   background-color: #fff;
-  margin-left: 5%;
+  margin-left: 1em;
   text-align: center;
 }
 
@@ -141,30 +141,30 @@ h4 {
 
 .programs-section {
   text-align: center;
-  margin: 5% 0;
+  margin: 5em 0;
 }
 
 .about-us-section {
-  height: 65vh;
+  height: 36em;
   background-color: #f6fafe;
 }
 
 .about-us-image {
-  height: 65vh;
+  height: 36em;
 }
 
 .about-us-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .about-us-box {
-  text-align: left;
-  margin-top: 22%;
+  margin-top: 8em;
+  width: 20em;
 }
 
 .about-us-box p {
-  margin-bottom: 10%;
+  margin-bottom: 2em;
 }
 /* 
 320px — 480px: Mobile devices.
