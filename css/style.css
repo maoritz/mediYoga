@@ -63,10 +63,6 @@ body {
   margin-right: 3rem;
 }
 
-.main-nav li a {
-  color: #0c2e4e;
-}
-
 .main-nav li:nth-child(7) {
   margin-right: 8rem;
 }
@@ -79,6 +75,12 @@ body {
 a:link,
 a:visited {
   text-decoration: none;
+  color: #0c2e4e;
+}
+
+a:hover,
+a:active {
+  color: #f6808c;
 }
 
 /* Headers */
@@ -185,7 +187,7 @@ p {
 .why-choose-us-section {
   text-align: center;
   margin: 5rem 0;
-  height: 50rem;
+  height: 75rem;
 }
 
 .service-container {
@@ -219,7 +221,7 @@ cite img {
   height: 40px;
   border-radius: 50%;
   margin-right: 10px;
-  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
 }
 
 .instructor-profile {
@@ -231,7 +233,7 @@ cite img {
   width: 90%;
   margin-left: 5%;
   display: block;
-  border: #cbd7e5 solid thin;
+  border: #f6f9fe solid 0.1px;
   margin-top: 20px;
 }
 
@@ -242,12 +244,94 @@ cite img {
 }
 
 time {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
+
+.schedule-section {
+  height: 50rem;
+  text-align: center;
+}
+
+.schedule-nav {
+  display: flex;
+  direction: row;
+  font-size: 2rem;
+  gap: 3rem;
+  justify-content: center;
+  list-style: none;
+}
+/* ================================================== */
+
+.schedule-container {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: 60px;
+  width: fit-content;
+  font-size: 1.5rem;
+  min-width: 400px;
+  margin-top: 30px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.schedule-item {
+  border: solid #edf5fd 1px;
+  text-align: center;
+}
+
+.gray-background {
+  background-color: #f8fbff;
+}
+
+.days-row {
+  padding-top: 20%;
+}
+
+.hours-row {
+  padding: 30px 0 30px 0;
+}
+
+.hours-column {
+  padding: 37px 0 20px 0;
+}
+
 /* 
 320px — 480px: Mobile devices.
 481px — 768px: iPads, Tablets.
 769px — 1024px: Small screens, laptops.
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens, TV.
- */
+ /* 
+ 
+
+ /* .schedule-container thead tr {
+  background-color: #f8fbff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.schedule-container thead tr th {
+  border: 1px #eaf3fc solid;
+}
+
+.schedule-container th,
+.schedule-container td {
+  padding: 12px 15px;
+}
+
+.schedule-container tbody tr {
+  border-bottom: 1px solid #eaf3fc;
+}
+
+.schedule-container tbody tr:nth-of-type(even) {
+  background-color: #f8fbff;
+}
+
+.schedule-container tbody tr:last-of-type {
+  border-bottom: 2px solid #eaf3fc;
+}
+
+.schedule-container tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}  */ ;
