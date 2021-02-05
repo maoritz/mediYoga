@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Lato", cursive;
+  font-family: "Montserrat", sans-serif;
   color: #0c2e4e;
 }
 
@@ -28,12 +28,21 @@ body {
   margin: 0 auto;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 /* ------------ HEADER ------------ */
 .header {
-  background-image: url("../img/mediyoga-main.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("../img/mediyoga-main.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
+  margin-bottom: 10rem;
 }
 
 .text-box {
@@ -80,27 +89,31 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #f6808c;
+  color: #FA5A64;
 }
 
 /* Headers */
 h1 {
   font-size: 6.5rem;
   margin-bottom: 1.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
-  margin-bottom: 30px;
+  margin-bottom: 3.75rem;
   font-weight: 700;
   font-size: 4rem;
+  font-family: "Playfair Display", serif;
 }
 
 h3 {
   margin: 1.5rem 0;
   font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 h4 {
+  font-family: "Montserrat", sans-serif;
   color: #f6808c;
   text-shadow: 0 0 0.1rem #f6808c;
   text-transform: uppercase;
@@ -117,7 +130,7 @@ h4 {
   padding: 1rem 3.5rem;
   border-radius: 0.5rem;
   font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-right: 0.5rem;
 }
 
@@ -126,6 +139,16 @@ h4 {
   background-color: #fa5a64;
 }
 
+.btn-discount:link,
+.btn-discount:visited {
+  background-color: #fa5a64;
+  color: white;
+  padding: 1.8rem 6.5rem;
+  border-radius: 0.5rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+}
 /* Paragraphs */
 
 .text-box p {
@@ -167,6 +190,7 @@ p {
 .about-us-section {
   height: 55rem;
   background-color: #f6fafe;
+  margin-bottom: 10rem;
 }
 
 .about-us-image {
@@ -218,9 +242,9 @@ p {
 }
 
 cite img {
-  height: 40px;
+  height: 5rem;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 1.25rem;
   vertical-align: -webkit-baseline-middle;
 }
 
@@ -233,8 +257,8 @@ cite img {
   width: 90%;
   margin-left: 5%;
   display: block;
-  border: #f6f9fe solid 0.1px;
-  margin-top: 20px;
+  border: #dce4ef solid 0.1px;
+  margin-top: 2.5rem;
 }
 
 .service-box .instructor-profile .btn {
@@ -247,16 +271,57 @@ time {
   font-size: 1.2rem;
 }
 
+.discount-section {
+  justify-content: center;
+  color: white;
+  margin-bottom: 10rem;
+  background-color: #0c2e4e;
+  height: 35rem;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 3rem;
+}
+
+.discount-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  width: 100%;
+}
+
+.discount-text {
+  width: 50%;
+}
+
+.discount-header {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  margin-bottom: 1.5rem;
+}
+.discount-footer {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  width: 90%;
+}
+
+.discount-section .btn-discount {
+  background-color: #fa5a64;
+}
+
+.discount-button {
+  margin: 7rem 0 0 15rem;
+}
+
 .schedule-section {
-  height: 50rem;
+  height: 45rem;
   text-align: center;
 }
 
 .schedule-nav {
   display: flex;
   direction: row;
-  font-size: 2rem;
-  gap: 3rem;
+  font-size: 1.5rem;
+  gap: 2.5rem;
   justify-content: center;
   list-style: none;
 }
@@ -264,12 +329,12 @@ time {
 
 .schedule-container {
   display: grid;
-  grid-template-columns: repeat(8, 100px);
-  grid-template-rows: 60px;
+  grid-template-columns: repeat(8, 10rem);
+  grid-template-rows: 7rem;
   width: fit-content;
   font-size: 1.5rem;
   min-width: 400px;
-  margin-top: 30px;
+  margin-top: 3.75rem;
   justify-content: center;
   border-radius: 10px;
 }
@@ -277,6 +342,7 @@ time {
 .schedule-item {
   border: solid #edf5fd 1px;
   text-align: center;
+  height: 10rem;
 }
 
 .gray-background {
@@ -284,15 +350,126 @@ time {
 }
 
 .days-row {
-  padding-top: 20%;
+  padding-top: 2.5rem;
+  height: 7rem;
 }
 
 .hours-row {
-  padding: 30px 0 30px 0;
+  padding-top: 3rem;
 }
 
 .hours-column {
-  padding: 37px 0 20px 0;
+  padding: 4rem 0 0 0;
+}
+
+.team-section {
+  margin-top: 35rem;
+  height: 55rem;
+  text-align: center;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.team-image {
+  display: inline-block;
+  height: 32rem;
+  margin-right: 2rem;
+}
+
+.pricing-image {
+  height: 75rem;
+}
+
+.pricing-video {
+  text-align: center;
+}
+
+.pricing-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80rem 65rem;
+}
+
+.price-box-container {
+  display: grid;
+  grid-template-columns: 12rem 30rem 20rem;
+  border: #e3f0fb solid 1px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.plan-icon {
+  /* height: 2rem; */
+  height: 19rem;
+  padding-top: 47%;
+  background-color: #f6fafe;
+  text-align: center;
+  border-right: #e3f0fb 1px solid;
+}
+
+.box-icon {
+  font-size: 7rem;
+}
+
+h5 {
+  font-size: 2rem;
+  margin-left: 6rem;
+}
+
+.price-per-week {
+  margin-bottom: 3rem;
+}
+
+.checkmark-container {
+  display: inline-block;
+  color: #f96a73;
+  width: 1.4rem;
+  border-radius: 99px;
+  background-color: #fbe7e6;
+  height: 1.4rem;
+  text-align: center;
+}
+
+.checkmark-icon {
+  font-size: 1rem;
+}
+
+.plan-type {
+  margin-top: 5rem;
+}
+
+.plan-advantage {
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+}
+
+.plan-advantage span {
+  margin-left: 1rem;
+}
+
+.price-per-week {
+  margin-top: 2.5rem;
+  width: fit-content;
+}
+
+.enroll-plan {
+  margin-left: 1rem;
+}
+
+.enroll-plan a {
+  margin-top: 2rem;
+}
+
+.price-per-week .price {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 5.5rem;
+  color: #fa5a64;
 }
 
 /* 
@@ -302,36 +479,3 @@ time {
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens, TV.
  /* 
- 
-
- /* .schedule-container thead tr {
-  background-color: #f8fbff;
-  text-align: center;
-  font-weight: bold;
-}
-
-.schedule-container thead tr th {
-  border: 1px #eaf3fc solid;
-}
-
-.schedule-container th,
-.schedule-container td {
-  padding: 12px 15px;
-}
-
-.schedule-container tbody tr {
-  border-bottom: 1px solid #eaf3fc;
-}
-
-.schedule-container tbody tr:nth-of-type(even) {
-  background-color: #f8fbff;
-}
-
-.schedule-container tbody tr:last-of-type {
-  border-bottom: 2px solid #eaf3fc;
-}
-
-.schedule-container tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
-}  */ ;
