@@ -14,101 +14,166 @@
   html {
     font-size: 43.5%;
   }
-}
 
-@media only screen and (max-width: 1024px) {
-  html {
-    font-size: 50%;
+  /* ----------------------------------------------- */
+  /* REUSABLE */
+  /* ----------------------------------------------- */
+
+  /* ----- HEADINGS ----- */
+  h1 {
+    font-size: 55px;
   }
-  /* ==================================================== */
-  .text-box,
-  .row,
-  .nav {
-    width: 100%;
-    padding: 2% 2%;
+  h2 {
+    font-size: 36px;
   }
-  /* ==================================================== */
-  .programs-container {
-    grid-template-columns: 80rem;
+  h3 {
+    font-size: 20px;
   }
-  /* ==================================================== */
-  .about-us-box {
-    width: 50%;
+  h4 {
+    font-size: 15px;
   }
-  .about-us-section h4 {
-    text-align: center;
-  }
-  .about-us-image {
-    display: none;
-  }
-  /* ==================================================== */
-  .service-container {
-    grid-template-columns: 75rem;
-    gap: 5rem;
-  }
-  .why-choose-us-section {
-    margin: 5rem 0;
+  h5 {
+    font-size: 20px;
   }
 
-  /* ==================================================== */
-
-  .discount-section {
-    width: 86%;
-    margin-left: 7%;
-  }
-  .discount-container {
-    text-align: center;
-    padding-top: 0;
-    flex-direction: column;
-  }
-  .discount-text {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-  .discount-header {
-    margin: 2rem 0;
-  }
-  .discount-footer {
-    display: none;
+  /* ----- BUTTONS ----- */
+  .btn:link,
+  .btn:visited {
+    font-size: 12px;
   }
 
-  /* ----- DISCOUNT BUTTONS ----- */
-  .discount-button {
-    margin: 0 0 5rem 0;
+  /* ----------------------------------------------- */
+  /* HEADER */
+  /* ----------------------------------------------- */
+  .service-paragraph {
+    font-size: 12px;
+  }
+  .header {
+    font-size: 16px;
+  }
+  .text-box p {
+    line-height: 20px;
+  }
+  .text-box .btn {
+    font-size: 12px;
   }
 
-  /* ==================================================== */
-  .plans-boxes h2,
-  .plans-boxes h4 {
-    display: none;
+  /* ----------------------------------------------- */
+  /* PROGRAMS */
+  /* ----------------------------------------------- */
+  .programs-section .programs-container .program-box p {
+    font-size: 16px;
   }
 
-  .pricing-headings-queries {
-    display: block;
-  }
-
-  .pricing-section {
-    display: block;
-    text-align: center;
-  }
-
-  .pricing-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 70rem;
-  }
-
-  @media only screen and (max-width: 671px) {
+  @media only screen and (max-width: 1024px) {
     html {
-      font-size: 43.5%;
+      font-size: 50%;
+    }
+    /* ----------------------------------------------- */
+    /* REUSABLE */
+    /* ----------------------------------------------- */
+    .row,
+    .nav {
+      width: 100%;
+      padding: 2% 2%;
+    }
+
+    /* ----------------------------------------------- */
+    /* PROGRAMS */
+    /* ----------------------------------------------- */
+    .programs-container {
+      grid-template-columns: 80rem;
+    }
+    /* ==================================================== */
+    .about-us-box {
+      width: 70%;
+    }
+    .about-us-section h4 {
+      text-align: center;
+    }
+    .about-us-image {
+      display: none;
+    }
+
+    /* ----------------------------------------------- */
+    /* SERVICE */
+    /* ----------------------------------------------- */
+    .service-container {
+      grid-template-columns: 75rem;
+      gap: 5rem;
+    }
+    .why-choose-us-section {
+      margin: 5rem 0;
+    }
+
+    /* ----------------------------------------------- */
+    /* DISCOUNT */
+    /* ----------------------------------------------- */
+    .discount-section {
+      width: 86%;
+      margin-left: 7%;
+    }
+    .discount-container {
+      text-align: center;
+      padding-top: 0;
+      flex-direction: column;
+    }
+    .discount-text {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .discount-header {
+      margin: 2rem 0;
+    }
+    .discount-footer {
+      display: none;
+    }
+
+    /* ----- DISCOUNT BUTTONS ----- */
+    .discount-button {
+      margin: 0 0 5rem 0;
+    }
+
+    /* ----------------------------------------------- */
+    /* PRICING */
+    /* ----------------------------------------------- */
+    .plans-boxes h2,
+    .plans-boxes h4 {
+      display: none;
+    }
+    .pricing-headings-queries {
+      display: block;
+    }
+    .pricing-section {
+      display: block;
+      text-align: center;
+    }
+    .pricing-container {
+      grid-template-columns: 70rem;
+    }
+
+    @media only screen and (max-width: 671px) {
+      html {
+        font-size: 43.5%;
+      }
+    }
+
+    @media only screen and (max-width: 587px) {
+      html {
+        font-size: 37%;
+      }
+      .schedule-container {
+        font-size: 1.4rem;
+      }
+      .schedule-nav {
+        font-size: 10px;
+      }
+      .plan-advantage span {
+        font-size: 10px;
+      }
     }
   }
-  @media only screen and (max-width: 587px) {
-    html {
-      font-size: 36.5%;
-    }
-  }
-  @media only screen and (max-width: 514px) {
+  /* @media only screen and (max-width: 514px) {
     html {
       font-size: 32%;
     }
@@ -117,5 +182,13 @@
     html {
       font-size: 29%;
     }
-  }
+  } */
 }
+
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+*/
