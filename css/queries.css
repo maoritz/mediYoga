@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1470px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  html {
+    font-size: 48.5%;
+  }
+}
+
+@media only screen and (max-width: 1143px) {
+  html {
+    font-size: 43.5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+  /* ==================================================== */
+  .text-box,
+  .row,
+  .nav {
+    width: 100%;
+    padding: 2% 2%;
+  }
+  /* ==================================================== */
+  .programs-container {
+    grid-template-columns: 80rem;
+  }
+  /* ==================================================== */
+  .about-us-box {
+    width: 50%;
+  }
+  .about-us-section h4 {
+    text-align: center;
+  }
+  .about-us-image {
+    display: none;
+  }
+  /* ==================================================== */
+  .service-container {
+    grid-template-columns: 75rem;
+    gap: 5rem;
+  }
+  .why-choose-us-section {
+    margin: 5rem 0;
+  }
+
+  /* ==================================================== */
+
+  .discount-section {
+    width: 86%;
+    margin-left: 7%;
+  }
+  .discount-container {
+    text-align: center;
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .discount-text {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .discount-header {
+    margin: 2rem 0;
+  }
+  .discount-footer {
+    display: none;
+  }
+
+  /* ----- DISCOUNT BUTTONS ----- */
+  .discount-button {
+    margin: 0 0 5rem 0;
+  }
+
+  /* ==================================================== */
+  .plans-boxes h2,
+  .plans-boxes h4 {
+    display: none;
+  }
+
+  .pricing-headings-queries {
+    display: block;
+  }
+
+  .pricing-section {
+    display: block;
+    text-align: center;
+  }
+
+  .pricing-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70rem;
+  }
+
+  @media only screen and (max-width: 671px) {
+    html {
+      font-size: 43.5%;
+    }
+  }
+  @media only screen and (max-width: 587px) {
+    html {
+      font-size: 36.5%;
+    }
+  }
+  @media only screen and (max-width: 514px) {
+    html {
+      font-size: 32%;
+    }
+  }
+  @media only screen and (max-width: 376px) {
+    html {
+      font-size: 29%;
+    }
+  }
+}

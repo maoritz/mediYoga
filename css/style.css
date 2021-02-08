@@ -18,13 +18,14 @@
 }
 
 html {
-  font-size: 50%;
+  font-size: 62.5%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   color: #0c2e4e;
   box-sizing: border-box;
+  width: fit-content;
 }
 
 /* ----------------------------------------------- */
@@ -35,13 +36,15 @@ body {
   margin: 0 auto;
 }
 
-section{
+section {
   text-align: center;
 }
 
 /* ----- HEADINGS ----- */
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
   font-family: "Playfair Display", serif;
 }
 
@@ -79,9 +82,8 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #FA5A64;
+  color: #fa5a64;
 }
-
 
 /* ----- BUTTONS ----- */
 .btn:link,
@@ -98,17 +100,6 @@ a:active {
 .btn:hover,
 .btn:active {
   background-color: #fa5a64;
-}
-
-.btn-discount:link,
-.btn-discount:visited {
-  background-color: #fa5a64;
-  color: white;
-  padding: 1.8rem 6.5rem;
-  border-radius: 0.5rem;
-  font-weight: 300;
-  font-size: 1.6rem;
-  margin-right: 0.5rem;
 }
 
 /* ----------------------------------------------- */
@@ -197,7 +188,6 @@ p {
   width: 100%;
 }
 
-
 /* ----------------------------------------------- */
 /* ABOUT US SECTION */
 /* ----------------------------------------------- */
@@ -222,13 +212,11 @@ p {
   width: 40rem;
 }
 
-
 /* ----------------------------------------------- */
 /* WHY CHOOSE US SECTION */
 /* ----------------------------------------------- */
 .why-choose-us-section {
   margin: 5rem 0;
-  height: 75rem;
 }
 
 .service-container {
@@ -265,6 +253,10 @@ cite img {
   vertical-align: -webkit-baseline-middle;
 }
 
+cite {
+  font-size: 1.2rem;
+}
+
 .instructor-profile {
   padding-bottom: 2rem;
 }
@@ -285,7 +277,7 @@ cite img {
 }
 
 time {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* ----------------------------------------------- */
@@ -296,7 +288,6 @@ time {
   color: white;
   margin-bottom: 10rem;
   background-color: #0c2e4e;
-  height: 35rem;
   width: 80%;
   margin-left: 10%;
   font-size: 3rem;
@@ -312,6 +303,7 @@ time {
 
 .discount-text {
   width: 50%;
+  margin-bottom: 7rem;
 }
 
 .discount-header {
@@ -325,21 +317,30 @@ time {
   width: 90%;
 }
 
+/* ----- DISCOUNT BUTTONS ----- */
+
 .discount-section .btn-discount {
   background-color: #fa5a64;
 }
 
 .discount-button {
-  margin: 7rem 0 0 15rem;
+  margin: 7.5rem 0 0 15rem;
+}
+
+.btn-discount:link,
+.btn-discount:visited {
+  background-color: #fa5a64;
+  color: white;
+  padding: 1.8rem 6.5rem;
+  border-radius: 0.5rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
 }
 
 /* ----------------------------------------------- */
 /* SCHEDULE SECTION */
 /* ----------------------------------------------- */
-
-.schedule-section {
-  height: 45rem;
-}
 
 /* ----- NAVIGATION ----- */
 .schedule-nav {
@@ -387,13 +388,12 @@ time {
   padding: 4rem 0 0 0;
 }
 
-
 /* ----------------------------------------------- */
 /* OUR TEAM SECTION */
 /* ----------------------------------------------- */
 .team-section {
-  margin-top: 35rem;
-  height: 55rem;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
 }
 
 .team-container {
@@ -412,17 +412,7 @@ time {
 /* ----------------------------------------------- */
 /* PRICING PLANS SECTION */
 /* ----------------------------------------------- */
-
-.pricing-image {
-  height: 75rem;
-}
-
-.pricing-video {
-  text-align: center;
-}
-
-.pricing-section{
-  height: 85rem;
+.pricing-section {
   display: block;
   text-align: unset;
 }
@@ -431,6 +421,32 @@ time {
   display: grid;
   justify-content: center;
   grid-template-columns: 80rem 65rem;
+}
+
+.pricing-video {
+  text-align: center;
+  vertical-align: baseline;
+}
+
+/* idth="700" height="745" */
+video {
+  width: 70rem;
+  height: 74.8rem;
+  background: linear-gradient(
+    to right,
+    #898681,
+    #96938e,
+    #a4a09b,
+    #b1ada9,
+    #bfbab7,
+    #bfbab7,
+    #bfbab7,
+    #bfbab7,
+    #b1ada9,
+    #a4a09b,
+    #96938e,
+    #898681
+  );
 }
 
 .price-box-container {
@@ -510,12 +526,6 @@ h5 {
   color: #fa5a64;
 }
 
-/* 
-320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens, TV.
- /* 
-
-
+.pricing-headings-queries {
+  display: none;
+}
