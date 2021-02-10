@@ -96,19 +96,32 @@
   .sticky-nav {
     display: block;
     float: right;
+    margin-right: 2%;
+    z-index: 9999;
   }
 
   .sticky-nav-list {
     list-style: none;
     background-color: #e4e9ec;
     border-radius: 2px;
-    padding: 6px;
-    z-index: 9999;
+    padding: 7px;
   }
   .sticky-nav-list li {
-    margin-top: 6px;
+    margin-top: 8px;
     font-size: 12px;
+    text-align: center;
   }
+
+  /* #c2d1da */
+  .sticky-nav-list li::after {
+    display: block;
+    content: "";
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 6px;
+    border: 1px solid #c2d1da;
+  }
+
   /* ----------------------------------------------- */
   /* REUSABLE */
   /* ----------------------------------------------- */
