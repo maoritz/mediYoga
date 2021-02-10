@@ -134,6 +134,7 @@ a:active {
   width: 40rem;
   margin-bottom: 5rem;
   line-height: 20px;
+  font-size: 2rem;
 }
 
 p {
@@ -149,7 +150,7 @@ p {
 
 .nav {
   padding-top: 3rem;
-  /* font-size: 1.8rem; */
+  font-size: 1.8rem;
 }
 
 .main-nav {
