@@ -103,9 +103,6 @@
   .about-us-box {
     width: 70%;
   }
-  .about-us-section h4 {
-    text-align: center;
-  }
   .about-us-image {
     display: none;
   }
@@ -167,14 +164,15 @@
   }
 
   /* ----- STICKY NAVIGATOIN ----- */
+  .nav {
+    padding: 0;
+  }
   .sticky-nav {
     display: block;
     z-index: 9999;
     position: fixed;
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
     text-align: center;
-    margin-top: 2%;
   }
 
   .sticky-nav-list {
@@ -182,13 +180,14 @@
     background-color: #f6fafe;
     border-radius: 2px;
     padding: 8px;
+    border-bottom: 1px #c2d1da solid;
   }
 
   .sticky-nav-list li {
     display: inline-block;
-    font-size: 62.5%;
-    margin-right: 1%;
-    padding-right: 1%;
+    font-size: 15px;
+    margin-right: 2%;
+    padding-right: 2%;
     text-align: center;
     border-right: 1px #c2d1da solid;
     font-size: 11px;
@@ -196,7 +195,8 @@
 
   .sticky-nav-list li:last-of-type {
     border: none;
-    padding-right: 0;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -212,7 +212,21 @@
   }
 
   h1 {
-    font-size: 45px;
+    font-size: 52px;
+  }
+  .header {
+    background-image: none;
+    background-color: #f8fbff;
+  }
+
+  .hero-text-box {
+    position: relative;
+    text-align: start;
+    padding-left: 6%;
+  }
+
+  .hero-text-box p {
+    width: 77%;
   }
 
   cite {

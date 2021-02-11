@@ -26,6 +26,7 @@ body {
   color: #0c2e4e;
   box-sizing: border-box;
   width: fit-content;
+  overflow-x: hidden;
 }
 
 /* ----------------------------------------------- */
