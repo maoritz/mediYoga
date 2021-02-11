@@ -4,6 +4,7 @@
 #0C2E4E buttons text
 #F6FAFE background color
 
+
 */
 
 /* ----------------------------------------------- */
@@ -17,6 +18,12 @@
   box-sizing: inherit;
 }
 
+html,
+body {
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -25,8 +32,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #0c2e4e;
   box-sizing: border-box;
-  width: fit-content;
-  overflow-x: hidden;
 }
 
 /* ----------------------------------------------- */
@@ -57,12 +62,12 @@ h1 {
 h2 {
   margin-bottom: 3.75rem;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4.4rem;
 }
 
 h3 {
   margin: 1.5rem 0;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 h4 {
@@ -71,7 +76,7 @@ h4 {
   text-shadow: 0 0 0.1rem #f6808c;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 h5 {
@@ -95,7 +100,7 @@ a:active {
 .btn:visited {
   background-color: #0c2e4e;
   color: white;
-  padding: 1rem 3.5rem;
+  padding: 1.5rem 4rem;
   border-radius: 0.5rem;
   font-weight: 500;
   font-size: 1.4rem;
@@ -134,13 +139,12 @@ a:active {
 .hero-text-box p {
   width: 40rem;
   margin-bottom: 5rem;
-  line-height: 2.6rem;
-  font-size: 2rem;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 2.1rem;
   margin-bottom: 5rem;
+  line-height: 2.5rem;
 }
 
 /* ----- NAVIGATION ----- */
@@ -182,7 +186,7 @@ p {
 /* ----------------------------------------------- */
 .programs-container {
   display: grid;
-  grid-template-columns: 33rem 33rem 33rem;
+  grid-template-columns: repeat(3, 33rem);
   gap: 2rem;
   justify-content: center;
 }
@@ -211,7 +215,7 @@ p {
 }
 
 .about-us-image {
-  height: 55.5rem;
+  height: 65rem;
 }
 
 .about-us-container {
@@ -221,7 +225,7 @@ p {
 
 .about-us-box {
   margin-top: 8rem;
-  width: 40rem;
+  width: 43rem;
 }
 
 /* ----------------------------------------------- */
@@ -233,7 +237,7 @@ p {
 
 .service-container {
   display: grid;
-  grid-template-columns: 30rem 30rem 30rem;
+  grid-template-columns: repeat(3, 33rem);
   gap: 2rem;
   justify-content: center;
 }
@@ -300,21 +304,20 @@ cite {
   color: white;
   margin-bottom: 10rem;
   background-color: #0c2e4e;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   text-align: start;
 }
 
 .discount-container {
   display: flex;
   justify-content: center;
-  padding-top: 8rem;
+  padding: 8rem 0;
   width: 100%;
 }
 
 .discount-text {
-  width: 50%;
-  margin-bottom: 7rem;
+  width: 60%;
 }
 
 .discount-header h2 {
@@ -335,7 +338,7 @@ cite {
 }
 
 .discount-button {
-  margin: 10rem 0 0 14rem;
+  margin: 10rem 0 0 12rem;
 }
 
 .btn-discount:link,
@@ -368,20 +371,23 @@ cite {
 /* ----- TABLE ----- */
 .schedule-container {
   display: grid;
-  grid-template-columns: repeat(8, 10rem);
-  grid-template-rows: 7rem;
-  width: fit-content;
-  font-size: 1.5rem;
-  min-width: 400px;
+  grid-template-columns: repeat(8, 12.8rem);
+  grid-template-rows: 7rem repeat(4, 12.8rem);
+  font-size: 1.6rem;
   margin-top: 3.75rem;
   justify-content: center;
   border-radius: 10px;
+  font-weight: 700;
 }
 
 .schedule-item {
   border: solid #edf5fd 1px;
   text-align: center;
-  height: 10rem;
+}
+
+.schedule-item div {
+  font-weight: 400;
+  margin-top: 0.5rem;
 }
 
 .gray-background {
@@ -390,15 +396,14 @@ cite {
 
 .days-row {
   padding-top: 2.5rem;
-  height: 7rem;
 }
 
 .hours-row {
-  padding-top: 3rem;
+  padding-top: 3.5rem;
 }
 
 .hours-column {
-  padding: 4rem 0 0 0;
+  padding: 4.5rem 0 0 0;
 }
 
 /* ----------------------------------------------- */
@@ -411,12 +416,12 @@ cite {
 
 .team-container {
   display: grid;
-  grid-template-columns: repeat(4, 21rem);
+  grid-template-columns: repeat(4, 26rem);
   justify-content: center;
 }
 
 .team-image {
-  height: 31rem;
+  height: 37rem;
 }
 
 /* ----------------------------------------------- */
@@ -430,7 +435,7 @@ cite {
 .pricing-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 80rem 65rem;
+  grid-template-columns: 76rem 63rem;
 }
 
 .pricing-video {
@@ -469,7 +474,6 @@ video {
 }
 
 .price-box-container .plan-icon {
-  /* height: 2rem; */
   height: 19rem;
   padding-top: 47%;
   background-color: #f6fafe;
@@ -505,7 +509,7 @@ video {
 }
 
 .plan-type-text {
-  margin-left: 6rem;
+  margin-left: 4rem;
 }
 
 .plan-advantage {
@@ -519,10 +523,6 @@ video {
 .price-per-week {
   margin-top: 2.5rem;
   width: fit-content;
-}
-
-.enroll-plan {
-  margin-left: 1rem;
 }
 
 .enroll-plan a {
