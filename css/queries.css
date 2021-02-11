@@ -19,17 +19,22 @@
   /* ----------------------------------------------- */
 
   /* ----- HEADINGS ----- */
+  p {
+    font-size: 16px;
+  }
+
+  /* ----- HEADINGS ----- */
   h1 {
-    font-size: 55px;
+    font-size: 57px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 35px;
   }
   h3 {
     font-size: 20px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 17px;
   }
   h5 {
     font-size: 20px;
@@ -41,27 +46,19 @@
     font-size: 12px;
   }
 
-  /* ----------------------------------------------- */
-  /* HEADER */
-  /* ----------------------------------------------- */
-  .service-paragraph {
-    font-size: 12px;
+  .btn-discount:link {
+    font-size: 14px;
   }
-  .header {
-    font-size: 16px;
-  }
-  .text-box p {
-    line-height: 20px;
-  }
-  .text-box .btn {
-    font-size: 12px;
+  .discount-button {
+    margin: 11.5rem 0 0 14rem;
   }
 
   /* ----------------------------------------------- */
-  /* PROGRAMS */
+  /* HEADER */
   /* ----------------------------------------------- */
-  .programs-section .programs-container .program-box p {
+  .hero-text-box p {
     font-size: 16px;
+    line-height: 20px;
   }
 
   /* ----------------------------------------------- */
@@ -85,44 +82,6 @@
 
 @media only screen and (max-width: 971px) {
   /* ----------------------------------------------- */
-  /* HEADER */
-  /* ----------------------------------------------- */
-
-  /* ----- NAVIGATOIN ----- */
-  .main-nav {
-    display: none;
-  }
-  /* ----- STICKY NAVIGATOIN ----- */
-  .sticky-nav {
-    display: block;
-    float: right;
-    margin-right: 2%;
-    z-index: 9999;
-  }
-
-  .sticky-nav-list {
-    list-style: none;
-    background-color: #e4e9ec;
-    border-radius: 2px;
-    padding: 7px;
-  }
-  .sticky-nav-list li {
-    margin-top: 8px;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  /* #c2d1da */
-  .sticky-nav-list li::after {
-    display: block;
-    content: "";
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 6px;
-    border: 0.1px solid #c2d1da;
-  }
-
-  /* ----------------------------------------------- */
   /* REUSABLE */
   /* ----------------------------------------------- */
   .row,
@@ -137,7 +96,10 @@
   .programs-container {
     grid-template-columns: 80rem;
   }
-  /* ==================================================== */
+
+  /* ----------------------------------------------- */
+  /* ABOUT US */
+  /* ----------------------------------------------- */
   .about-us-box {
     width: 70%;
   }
@@ -149,7 +111,7 @@
   }
 
   /* ----------------------------------------------- */
-  /* SERVICE */
+  /* WHY CHOOSE US */
   /* ----------------------------------------------- */
   .service-container {
     grid-template-columns: 75rem;
@@ -157,6 +119,13 @@
   }
   .why-choose-us-section {
     margin: 5rem 0;
+  }
+  .service-box span {
+    font-size: 13px;
+  }
+
+  .service-box p {
+    font-size: 16px;
   }
 
   /* ----------------------------------------------- */
@@ -188,17 +157,56 @@
   }
 }
 
-@media only screen and (max-width: 668px) {
-  html {
-    font-size: 44%;
+@media only screen and (max-width: 888px) {
+  /* ----- NAVIGATOIN ----- */
+  .main-nav {
+    display: none;
+  }
+  .logo {
+    display: none;
   }
 
-  .btn-discount:link {
-    font-size: 12px;
+  /* ----- STICKY NAVIGATOIN ----- */
+  .sticky-nav {
+    display: block;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .sticky-nav-list {
+    list-style: none;
+    background-color: #f6fafe;
+    border-radius: 2px;
+    padding: 8px;
+  }
+
+  .sticky-nav-list li {
+    display: inline-block;
+    font-size: 62.5%;
+    margin-right: 1%;
+    padding-right: 1%;
+    text-align: center;
+    border-right: 1px #c2d1da solid;
+    font-size: 11px;
+  }
+
+  .sticky-nav-list li:last-of-type {
+    border: none;
+    padding-right: 0;
   }
 }
 
-@media only screen and (max-width: 587px) {
+@media only screen and (max-width: 676px) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media only screen and (max-width: 602px) {
   html {
     font-size: 37%;
   }
@@ -207,31 +215,45 @@
     font-size: 45px;
   }
 
-  .schedule-container {
-    font-size: 9px;
+  cite {
+    font-size: 14px;
   }
+
+  /* ----------------------------------------------- */
+  /* SCHEDULE */
+  /* ----------------------------------------------- */
   .schedule-nav {
-    font-size: 11px;
-  }
-  .plan-advantage span {
-    font-size: 11px;
+    font-size: 11.5px;
   }
 
   .schedule-container {
     font-size: 10px;
   }
-}
 
-/* @media only screen and (max-width: 514px) {
-    html {
-      font-size: 32%;
-    }
+  /* ----------------------------------------------- */
+  /* OUR TEAM SECTION */
+  /* ----------------------------------------------- */
+  .team-container {
+    grid-template-columns: repeat(2, 21rem);
+    row-gap: 13px;
   }
-  @media only screen and (max-width: 376px) {
-    html {
-      font-size: 29%;
-    }
-  } */
+
+  .team-image {
+    height: 31rem;
+  }
+
+  /* ----------------------------------------------- */
+  /* PRICING */
+  /* ----------------------------------------------- */
+  .plan-advantage span {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .price-per-week {
+    font-size: 12px;
+  }
+}
 
 /* 
 320px — 480px: Mobile devices.
