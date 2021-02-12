@@ -236,9 +236,9 @@
   }
   .btn:link,
   .btn:visited {
-    padding: 2.5rem 7rem;
-    font-weight: 700;
-    font-size: 11px;
+    padding: 2.5rem 8rem;
+    font-weight: 500;
+    font-size: 13px;
   }
   /* ----------------------------------------------- */
   /* HEADER */
@@ -258,6 +258,10 @@
   .hero-text-box p {
     width: 77%;
     margin-bottom: 12rem;
+  }
+
+  .hero-text-box .btn {
+    padding: 2.5rem 6rem;
   }
 
   /* ----------------------------------------------- */
@@ -307,6 +311,12 @@
   .price-per-week .price {
     font-size: 10rem;
   }
+  /* =================================== */
+  .service-box .instructor-profile .btn {
+    width: 44%;
+    margin-left: 28%;
+    padding: 2.2rem;
+  }
 }
 
 @media only screen and (max-width: 481px) {
@@ -345,7 +355,7 @@
     width: 86%;
   }
   cite {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 

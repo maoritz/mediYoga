@@ -145,7 +145,7 @@ a:active {
 }
 
 .hero-text-box .btn {
-  margin-right: 0.8rem;
+  margin-right: 1rem;
 }
 
 /* ----- NAVIGATION ----- */
@@ -291,7 +291,6 @@ cite {
   margin-top: 2rem;
   width: 60%;
   margin-left: 20%;
-  padding: 1.8rem 0;
 }
 
 .service-box span {
