@@ -18,7 +18,7 @@
   /* ----- BUTTONS ----- */
   .btn:link,
   .btn:visited {
-    font-size: 12px;
+    font-size: 14px;
   }
   .btn-discount:link {
     font-size: 14px;
@@ -52,8 +52,15 @@
     display: block;
     text-align: center;
   }
+  .price-per-week {
+    margin-left: 0.5rem;
+  }
+  video {
+    width: 75rem;
+  }
+
   .pricing-container {
-    grid-template-columns: 70rem;
+    grid-template-columns: 75rem;
   }
 }
 
@@ -315,43 +322,45 @@
   h4 {
     font-size: 15px;
   }
+
+  h5 {
+    font-size: 12px;
+  }
   /* ----- BUTTONS ----- */
   .btn:link,
   .btn:visited {
-    background-color: #0c2e4e;
-    color: white;
-    padding: 1.5rem 4rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    font-size: 9px;
-    margin-right: 0.5rem;
+    font-size: 10px;
   }
 
   .service-box p {
     font-size: 14px;
   }
+
+  .about-us-box {
+    width: 86%;
+  }
   /* ----------------------------------------------- */
   /* PRICING */
   /* ----------------------------------------------- */
   .plan-advantage span {
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 500;
   }
 
   .price-per-week {
-    font-size: 12px;
+    font-size: 10px;
   }
-
   .price-box-container {
-    grid-template-columns: 7rem 38rem 25rem;
+    grid-template-columns: 7rem 41rem 26rem;
   }
-
   .price-box-container .plan-icon {
     padding-top: 7rem;
   }
-
   .box-icon {
-    font-size: 4rem;
+    font-size: 4.5rem;
+  }
+  .plan-type {
+    margin-top: 4rem;
   }
 }
 

@@ -100,7 +100,7 @@ a:active {
 .btn:visited {
   background-color: #0c2e4e;
   color: white;
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 4.5rem;
   border-radius: 0.5rem;
   font-weight: 500;
   font-size: 1.4rem;
@@ -521,7 +521,7 @@ video {
 }
 
 .price-per-week {
-  margin-top: 2.5rem;
+  margin: 1.5rem 0 3rem 0;
   width: fit-content;
 }
 
