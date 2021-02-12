@@ -3,8 +3,6 @@
 #FA5A64 buttons notification
 #0C2E4E buttons text
 #F6FAFE background color
-
-
 */
 
 /* ----------------------------------------------- */
@@ -55,8 +53,9 @@ h3 {
 }
 
 h1 {
-  font-size: 6.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 8rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 
 h2 {
@@ -76,11 +75,19 @@ h4 {
   text-shadow: 0 0 0.1rem #f6808c;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  font-weight: 500;
 }
 
 h5 {
   font-size: 2rem;
+}
+
+/* ----- PERAGRAPHS ----- */
+p {
+  font-size: 2.1rem;
+  margin-bottom: 6.5rem;
+  line-height: 2.5rem;
 }
 
 /* ----- LINKS ----- */
@@ -103,8 +110,7 @@ a:active {
   padding: 1.5rem 4.5rem;
   border-radius: 0.5rem;
   font-weight: 500;
-  font-size: 1.4rem;
-  margin-right: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .btn:hover,
@@ -134,21 +140,15 @@ a:active {
   transform: translate(-50%, -50%);
 }
 
-/* ----- PERAGRAPHS ----- */
-
 .hero-text-box p {
   width: 40rem;
-  margin-bottom: 5rem;
 }
 
-p {
-  font-size: 2.1rem;
-  margin-bottom: 5rem;
-  line-height: 2.5rem;
+.hero-text-box .btn {
+  margin-right: 0.8rem;
 }
 
 /* ----- NAVIGATION ----- */
-
 .logo {
   display: inline-block;
 }
@@ -242,13 +242,13 @@ p {
   justify-content: center;
 }
 
+.service-img {
+  width: 100%;
+}
+
 .service-box {
   text-align: center;
   background-color: #f6fafe;
-}
-
-.service-img {
-  width: 100%;
 }
 
 .service-box p {
@@ -288,8 +288,10 @@ cite {
 
 .service-box .instructor-profile .btn {
   display: block;
-  width: 50%;
-  margin: 2rem 0 0 25%;
+  margin-top: 2rem;
+  width: 60%;
+  margin-left: 20%;
+  padding: 1.8rem 0;
 }
 
 .service-box span {
@@ -421,7 +423,7 @@ cite {
 }
 
 .team-image {
-  height: 37rem;
+  height: 38rem;
 }
 
 /* ----------------------------------------------- */
@@ -466,7 +468,8 @@ video {
 
 .price-box-container {
   display: grid;
-  grid-template-columns: 12rem 30rem 20rem;
+  grid-template-columns: 12rem 33rem 17.5rem;
+  grid-template-rows: 18.7rem;
   border: #e3f0fb solid 1px;
   border-radius: 5px;
   font-size: 1.5rem;
@@ -474,19 +477,18 @@ video {
 }
 
 .price-box-container .plan-icon {
-  height: 19rem;
   padding-top: 47%;
   background-color: #f6fafe;
   text-align: center;
   border-right: #e3f0fb 1px solid;
 }
 
-.box-icon {
-  font-size: 7rem;
+.enroll-plan {
+  padding-top: 2rem;
 }
 
-.price-per-week {
-  margin-bottom: 3rem;
+.i-icon {
+  font-size: 7rem;
 }
 
 .checkmark-container {
@@ -499,6 +501,16 @@ video {
   text-align: center;
 }
 
+.plan-advantages {
+  text-align: center;
+  font-size: 16px;
+}
+
+.plan-advantage {
+  margin-top: 1.5rem;
+  text-align: start;
+}
+
 .checkmark-icon {
   font-size: 1rem;
 }
@@ -506,32 +518,16 @@ video {
 .plan-type {
   margin-top: 5rem;
   text-align: start;
-}
-
-.plan-type-text {
   margin-left: 4rem;
 }
 
-.plan-advantage {
-  margin-top: 1.5rem;
-}
-
-.plan-advantage span {
-  margin-left: 1rem;
-}
-
-.price-per-week {
-  margin: 1.5rem 0 3rem 0;
-  width: fit-content;
-}
-
-.enroll-plan a {
-  margin-top: 2rem;
+.price-box-container .enroll-now {
+  margin-top: 3rem;
 }
 
 .price-per-week .price {
   font-family: "Cormorant Garamond", serif;
-  font-size: 5.5rem;
+  font-size: 6rem;
   color: #fa5a64;
 }
 
