@@ -186,7 +186,7 @@
 
   /* ----- DISCOUNT BUTTONS ----- */
   .discount-button {
-    margin: 0 0 5rem 0;
+    margin: 2.5rem 0 5rem 0;
   }
 
   /* ----------------------------------------------- */
@@ -236,8 +236,18 @@
   }
   .btn:link,
   .btn:visited {
-    padding: 2.5rem 8rem;
+    padding: 2.5rem 10rem;
     font-weight: 500;
+    font-size: 14px;
+  }
+
+  .hero-buttons:last-child {
+    display: block;
+    padding: 2.5rem 8.8rem;
+    margin-top: 5rem;
+  }
+
+  cite {
     font-size: 13px;
   }
 
@@ -259,10 +269,6 @@
   .hero-text-box p {
     width: 77%;
     margin-bottom: 12rem;
-  }
-
-  .hero-text-box .btn {
-    padding: 2.5rem 6rem;
   }
 
   /* ----------------------------------------------- */
@@ -324,12 +330,11 @@
   html {
     font-size: 25%;
   }
-
   h1 {
     font-size: 43px;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
   h2 {
     font-size: 28px;
@@ -338,10 +343,21 @@
     font-size: 22px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 17px;
   }
   h5 {
     font-size: 20px;
+  }
+
+  .hero-buttons:last-child {
+    display: block;
+    padding: 2.5rem 8.2rem;
+    margin-top: 5rem;
+  }
+  .service-box .instructor-profile .btn {
+    width: 54%;
+    margin-left: 23%;
+    padding: 2.2rem;
   }
 
   .sticky-nav-list li {
@@ -352,11 +368,9 @@
     margin-bottom: 10rem;
     margin-top: 6rem;
   }
+
   .about-us-box {
     width: 86%;
-  }
-  cite {
-    font-size: 12px;
   }
 }
 
