@@ -247,12 +247,11 @@
   .header {
     background-image: none;
     background-color: #f8fbff;
-    height: auto;
   }
   .hero-text-box {
     position: relative;
     padding-left: 6%;
-    padding-top: 25rem;
+    padding-top: 30vh;
     top: auto;
     left: auto;
     transform: unset;
@@ -358,6 +357,12 @@
   }
   cite {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .header {
+    height: auto;
   }
 }
 
