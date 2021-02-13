@@ -42,6 +42,7 @@ body {
 
 section {
   text-align: center;
+  margin: 12rem 0;
 }
 
 /* ----- HEADINGS ----- */
@@ -191,10 +192,6 @@ a:active {
   justify-content: center;
 }
 
-.programs-section {
-  margin: 5rem 0;
-}
-
 .program-box {
   background-color: #fff;
   text-align: center;
@@ -209,7 +206,6 @@ a:active {
 /* ----------------------------------------------- */
 .about-us-section {
   background-color: #f6fafe;
-  margin-bottom: 10rem;
   text-align: unset;
   padding-bottom: 20px;
 }
@@ -231,9 +227,6 @@ a:active {
 /* ----------------------------------------------- */
 /* WHY CHOOSE US SECTION */
 /* ----------------------------------------------- */
-.why-choose-us-section {
-  margin: 5rem 0;
-}
 
 .service-container {
   display: grid;
@@ -303,7 +296,6 @@ cite {
 
 .discount-section {
   color: white;
-  margin-bottom: 10rem;
   background-color: #0c2e4e;
   width: 90%;
   margin-left: 5%;
@@ -410,10 +402,6 @@ cite {
 /* ----------------------------------------------- */
 /* OUR TEAM SECTION */
 /* ----------------------------------------------- */
-.team-section {
-  margin-top: 15rem;
-  margin-bottom: 20rem;
-}
 
 .team-container {
   display: grid;

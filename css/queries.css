@@ -240,17 +240,19 @@
     font-weight: 500;
     font-size: 13px;
   }
+
   /* ----------------------------------------------- */
   /* HEADER */
   /* ----------------------------------------------- */
   .header {
     background-image: none;
     background-color: #f8fbff;
+    height: auto;
   }
   .hero-text-box {
     position: relative;
     padding-left: 6%;
-    padding-top: 35rem;
+    padding-top: 25rem;
     top: auto;
     left: auto;
     transform: unset;
