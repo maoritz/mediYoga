@@ -223,6 +223,7 @@
 @media only screen and (max-width: 626px) {
   html {
     font-size: 37%;
+    -webkit-text-size-adjust: none;
   }
   /* ----------------------------------------------- */
   /* REUSEABLE */
