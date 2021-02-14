@@ -8,6 +8,10 @@
   html {
     font-size: 50%;
   }
+  p {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 @media only screen and (max-width: 1133px) {
@@ -15,8 +19,8 @@
   /* ABOUT US */
   /* ----------------------------------------------- */
   .about-us-box {
-    width: 60%;
-    margin: 4rem 0;
+    width: 47%;
+    margin: 4em 0;
   }
   .about-us-image {
     display: none;
@@ -37,24 +41,24 @@
     text-align: center;
   }
   .price-per-week {
-    margin-left: 0.5rem;
+    margin-left: 0.5em;
   }
   video {
-    width: 75rem;
+    width: 75em;
   }
 
   .pricing-container {
-    grid-template-columns: 75rem;
+    grid-template-columns: 75em;
   }
 
   .price-box-container {
     display: grid;
-    grid-template-columns: 12rem 38rem 24.5rem;
-    grid-template-rows: 18.7rem;
+    grid-template-columns: 9em 20.5em 20.3em;
+    grid-template-rows: 13em;
     border: #e3f0fb solid 1px;
     border-radius: 5px;
-    font-size: 1.5rem;
-    margin-bottom: 2.5rem;
+    font-size: 1.5em;
+    margin-bottom: 2em;
   }
 }
 
@@ -72,7 +76,7 @@
   /* DISCOUNT */
   /* ----------------------------------------------- */
   .discount-container {
-    padding: 5rem 0;
+    padding: 5em 0;
   }
   .discount-text {
     width: 70%;
@@ -80,19 +84,11 @@
 
   /* ----- DISCOUNT BUTTONS ----- */
   .discount-button {
-    margin: 12rem 0 0 0;
+    margin: 12em 0 0 0;
   }
 }
 
 @media only screen and (max-width: 848px) {
-  /* ----------------------------------------------- */
-  /* REUSEABLE */
-  /* ----------------------------------------------- */
-  p {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
   /* ----------------------------------------------- */
   /* STICKY NAVIGATOIN */
   /* ----------------------------------------------- */
@@ -129,7 +125,7 @@
     padding-right: 1%;
     text-align: center;
     border-right: 1px #c2d1da solid;
-    font-size: 1.7rem;
+    font-size: 1em;
   }
   .sticky-nav-list li:last-of-type {
     border: none;
@@ -141,18 +137,18 @@
   /* PROGRAMS */
   /* ----------------------------------------------- */
   .programs-container {
-    grid-template-columns: 75rem;
+    grid-template-columns: 75em;
   }
 
   /* ----------------------------------------------- */
   /* WHY CHOOSE US */
   /* ----------------------------------------------- */
   .service-container {
-    grid-template-columns: 75rem;
-    gap: 5rem;
+    grid-template-columns: 75em;
+    gap: 5em;
   }
   .why-choose-us-section {
-    margin: 5rem 0;
+    margin: 5em 0;
   }
   .service-box span {
     font-size: 13px;
@@ -170,15 +166,15 @@
 
   .discount-container {
     text-align: center;
-    padding: 3rem 0;
+    padding: 3em 0;
     flex-direction: column;
   }
   .discount-text {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
   }
   .discount-header {
-    margin: 2rem 0;
+    margin: 2em 0;
   }
   .discount-footer {
     display: none;
@@ -186,35 +182,35 @@
 
   /* ----- DISCOUNT BUTTONS ----- */
   .discount-button {
-    margin: 2.5rem 0 5rem 0;
+    margin: 2.5em 0 5em 0;
   }
 
   /* ----------------------------------------------- */
   /* SCHEDULE */
   /* ----------------------------------------------- */
   .schedule-container {
-    grid-template-columns: repeat(8, 10rem);
-    grid-template-rows: 7rem repeat(4, 10rem);
+    grid-template-columns: repeat(8, 7em);
+    grid-template-rows: 5em repeat(4, 7em);
     font-size: 11.5px;
   }
 
   .hours-row {
-    padding-top: 2.5rem;
+    padding-top: 2em;
   }
 
   .hours-column {
-    padding: 4rem 0 0 0;
+    padding: 2.8em 0 0 0;
   }
 
   /* ----------------------------------------------- */
   /* OUR TEAM SECTION */
   /* ----------------------------------------------- */
   .team-container {
-    grid-template-columns: repeat(2, 38rem);
+    grid-template-columns: repeat(2, 38em);
     row-gap: 13px;
   }
   .team-image {
-    height: 60rem;
+    height: 60em;
   }
 }
 
@@ -239,24 +235,24 @@
   }
   .btn:link,
   .btn:visited {
-    padding: 2.7rem 10.1rem;
+    padding: 1.2em 4em;
     font-weight: 500;
     font-size: 14px;
   }
 
   .service-box .instructor-profile .btn {
-    width: 44%;
-    margin-left: 28%;
+    width: 42%;
+    margin-left: 29%;
   }
 
   .hero-buttons:last-child {
     display: block;
-    padding: 2.7rem 8.8rem;
-    margin-top: 5rem;
+    padding: 1.2em 3.5em;
+    margin-top: 1.8em;
   }
 
   cite {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   /* ----------------------------------------------- */
@@ -269,14 +265,14 @@
   .hero-text-box {
     position: relative;
     padding-left: 6%;
-    padding-top: 25vh;
+    padding-top: 30em;
     top: auto;
     left: auto;
     transform: unset;
   }
   .hero-text-box p {
     width: 77%;
-    margin-bottom: 12rem;
+    margin-bottom: 3.2em;
   }
 
   /* ----------------------------------------------- */
@@ -284,19 +280,20 @@
   /* ----------------------------------------------- */
 
   .price-box-container {
-    grid-template-columns: 74.8rem;
-    grid-template-rows: 20rem 28rem 28rem;
+    grid-template-columns: 74.8em;
+    grid-template-columns: 50em;
+    grid-template-rows: 12em 20em 20em;
   }
   .price-box-container .plan-icon {
-    padding-top: 2rem;
+    padding-top: 1.5em;
     border-right: none;
     border-bottom: #e3f0fb 1px solid;
   }
   .i-icon {
-    font-size: 15rem;
+    font-size: 9em;
   }
   .enroll-plan {
-    padding-top: 2rem;
+    padding-top: 1em;
   }
   .checkmark-icon {
     display: none;
@@ -310,21 +307,21 @@
   }
   .price-per-week {
     font-size: 14px;
-    margin: 0 0 5rem 0;
+    margin: 0 0 1.5em 0;
   }
   .plan-advantage {
-    margin-top: 2.5rem;
+    margin-top: 0.8em;
     font-size: 14px;
   }
   .plan-advantages {
-    margin-top: 5rem;
-    padding-left: 20rem;
+    margin-top: 1em;
+    padding-left: 8em;
   }
   .price-box-container .enroll-now {
-    margin-top: 4rem;
+    margin-top: 2em;
   }
   .price-per-week .price {
-    font-size: 10rem;
+    font-size: 3em;
   }
 }
 
@@ -353,22 +350,23 @@
     font-size: 16px;
   }
 
+  .plan-advantages {
+    margin-top: 1em;
+    padding-left: 5em;
+  }
   .btn:link,
   .btn:visited {
-    padding: 3rem 10.7rem;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
   }
 
-  .hero-buttons:last-child {
-    display: block;
-    padding: 3rem 8.8rem;
-    margin-top: 5rem;
+  .header {
+    height: auto;
   }
 
   .service-box .instructor-profile .btn {
-    width: 54%;
-    margin-left: 23%;
+    width: 62%;
+    margin-left: 19%;
   }
 
   .sticky-nav-list li {
@@ -376,18 +374,12 @@
   }
 
   .hero-text-box p {
-    margin-bottom: 10rem;
-    margin-top: 6rem;
+    margin-bottom: 4em;
+    margin-top: 2em;
   }
 
   .about-us-box {
     width: 86%;
-  }
-}
-
-@media only screen and (max-width: 319px) {
-  .header {
-    height: auto;
   }
 }
 
