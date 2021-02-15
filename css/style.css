@@ -251,6 +251,8 @@ a:active {
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
   color: #a9b7c4;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .service-box h3 {
@@ -258,14 +260,14 @@ a:active {
 }
 
 cite img {
-  height: 5rem;
+  height: 3em;
   border-radius: 50%;
   margin-right: 1.25rem;
   vertical-align: -webkit-baseline-middle;
 }
 
 cite {
-  font-size: 1.8rem;
+  font-size: 1.8em;
 }
 
 .instructor-profile {
@@ -274,8 +276,7 @@ cite {
 
 .service-box p::after {
   content: "";
-  width: 90%;
-  margin-left: 5%;
+
   display: block;
   border: #dce4ef solid 0.1px;
   margin-top: 2.5rem;
@@ -326,11 +327,7 @@ cite {
   width: 90%;
 }
 
-/* ----- DISCOUNT BUTTONS ----- */
-
-.discount-section .btn-discount {
-  background-color: #fa5a64;
-}
+/* ----- DISCOUNT BUTTON ----- */
 
 .discount-button {
   margin: 10rem 0 0 12rem;
@@ -343,6 +340,11 @@ cite {
   padding: 1.8rem 6.5rem;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.btn-discount:hover,
+.btn-discount:active {
+  background-color: #f6808c;
 }
 
 /* ----------------------------------------------- */
@@ -480,10 +482,10 @@ video {
 .checkmark-container {
   display: inline-block;
   color: #f96a73;
-  width: 1.4rem;
+  width: 1em;
+  height: 1em;
   border-radius: 99px;
   background-color: #fbe7e6;
-  height: 1.4rem;
   text-align: center;
 }
 
@@ -498,7 +500,7 @@ video {
 }
 
 .checkmark-icon {
-  font-size: 1rem;
+  font-size: 0.8em;
 }
 
 .plan-type {

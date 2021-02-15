@@ -252,10 +252,6 @@
     margin-top: 1.8em;
   }
 
-  cite {
-    font-size: 14px;
-  }
-
   /* ----------------------------------------------- */
   /* HEADER */
   /* ----------------------------------------------- */
@@ -266,7 +262,7 @@
   .hero-text-box {
     position: relative;
     padding-left: 6%;
-    padding-top: 30em;
+    padding-top: 22rem;
     top: auto;
     left: auto;
     transform: unset;
@@ -275,7 +271,9 @@
     width: 77%;
     margin-bottom: 3.2em;
   }
-
+  cite {
+    font-size: 14px;
+  }
   /* ----------------------------------------------- */
   /* PRICING */
   /* ----------------------------------------------- */
@@ -294,10 +292,7 @@
     font-size: 9em;
   }
   .enroll-plan {
-    padding-top: 1em;
-  }
-  .checkmark-icon {
-    display: none;
+    padding-top: 0;
   }
   h5 {
     font-size: 30px;
@@ -308,7 +303,7 @@
   }
   .price-per-week {
     font-size: 14px;
-    margin: 0 0 1.5em 0;
+    margin: 0 0 2em 0;
   }
   .plan-advantage {
     margin-top: 0.8em;
@@ -383,11 +378,3 @@
     width: 86%;
   }
 }
-
-/* 
-320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens, TV.
-*/
