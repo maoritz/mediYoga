@@ -227,20 +227,18 @@
 
   .btn:link,
   .btn:visited {
-    padding: 1.4em 4.1em;
-    font-weight: 500;
-    font-size: 2.3em;
+    font-size: 2.8em;
   }
 
   .service-box .instructor-profile .btn {
-    width: 42%;
-    margin-left: 29%;
+    width: 44%;
+    margin-left: 28%;
   }
 
   .hero-buttons:last-child {
     display: block;
-    padding: 1.4em 3.6em;
-    margin-top: 1.8em;
+    padding: 1.2em 2.45em;
+    margin-top: 2em;
   }
 
   /* ----------------------------------------------- */
@@ -300,7 +298,7 @@
     margin-top: 0.8em;
   }
   .plan-advantages {
-    padding-left: 5.2em;
+    padding-left: 4.4em;
     font-size: 3.3em;
   }
   .price-box-container .enroll-now {
@@ -332,10 +330,16 @@
   p {
     font-size: 16px;
   }
-
+  .btn:link,
+  .btn:visited {
+    font-size: 3.3em;
+  }
   .service-box .instructor-profile .btn {
-    width: 52%;
-    margin-left: 24%;
+    width: 54%;
+    margin-left: 23%;
+  }
+  .per-week {
+    font-size: 2em;
   }
 
   .sticky-nav-list li {

@@ -109,10 +109,10 @@ a:active {
 .btn:visited {
   background-color: #0c2e4e;
   color: white;
-  padding: 1.2em 3em;
+  padding: 1.1em 3em;
   border-radius: 0.5rem;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   width: fit-content;
 }
 
@@ -337,8 +337,6 @@ cite {
 .btn-discount:visited {
   background-color: #fa5a64;
   color: white;
-  padding: 1.8rem 6.5rem;
-  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -455,7 +453,7 @@ video {
 
 .price-box-container {
   display: grid;
-  grid-template-columns: 14rem 39.5rem 22rem;
+  grid-template-columns: 14rem 37.5rem 23rem;
   grid-template-rows: 20.7rem;
   border: #e3f0fb solid 1px;
   border-radius: 5px;
@@ -470,7 +468,7 @@ video {
 }
 
 .enroll-plan {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .i-icon {
