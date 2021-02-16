@@ -1,10 +1,10 @@
-@media only screen and (max-width: 1412px) {
+@media only screen and (max-width: 1560px) {
   html {
     font-size: 55%;
   }
 }
 
-@media only screen and (max-width: 1242px) {
+@media only screen and (max-width: 1375px) {
   html {
     font-size: 50%;
   }
@@ -14,7 +14,7 @@
   }
 }
 
-@media only screen and (max-width: 1133px) {
+@media only screen and (max-width: 1251px) {
   /* ----------------------------------------------- */
   /* ABOUT US */
   /* ----------------------------------------------- */
@@ -44,21 +44,10 @@
     margin-left: 0.5em;
   }
   video {
-    width: 75em;
+    width: 75.5em;
   }
-
   .pricing-container {
-    grid-template-columns: 75em;
-  }
-
-  .price-box-container {
-    display: grid;
-    grid-template-columns: 9em 20.5em 20.3em;
-    grid-template-rows: 13em;
-    border: #e3f0fb solid 1px;
-    border-radius: 5px;
-    font-size: 1.5em;
-    margin-bottom: 2em;
+    grid-template-columns: 75.5em;
   }
 }
 
@@ -225,6 +214,7 @@
     font-size: 37%;
     -webkit-text-size-adjust: none;
   }
+
   /* ----------------------------------------------- */
   /* REUSEABLE */
   /* ----------------------------------------------- */
@@ -234,11 +224,12 @@
   h4 {
     font-size: 20px;
   }
+
   .btn:link,
   .btn:visited {
-    padding: 1.2em 4em;
+    padding: 1.4em 4.1em;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 2.3em;
   }
 
   .service-box .instructor-profile .btn {
@@ -248,7 +239,7 @@
 
   .hero-buttons:last-child {
     display: block;
-    padding: 1.2em 3.5em;
+    padding: 1.4em 3.6em;
     margin-top: 1.8em;
   }
 
@@ -258,6 +249,7 @@
   .header {
     background-image: none;
     background-color: #f8fbff;
+    height: auto;
   }
   .hero-text-box {
     position: relative;
@@ -280,8 +272,7 @@
 
   .price-box-container {
     grid-template-columns: 74.8em;
-    grid-template-columns: 50em;
-    grid-template-rows: 12em 20em 20em;
+    grid-template-rows: 15em 30em 25em;
   }
   .price-box-container .plan-icon {
     padding-top: 1.5em;
@@ -290,6 +281,7 @@
   }
   .i-icon {
     font-size: 9em;
+    margin-top: 0.2em;
   }
   .enroll-plan {
     padding-top: 0;
@@ -298,26 +290,21 @@
     font-size: 30px;
   }
   .plan-type {
-    margin-left: 0;
     text-align: center;
   }
   .price-per-week {
-    font-size: 14px;
-    margin: 0 0 2em 0;
+    font-size: 1.5em;
+    margin: 0 0 3em 0;
   }
   .plan-advantage {
     margin-top: 0.8em;
-    font-size: 14px;
   }
   .plan-advantages {
-    margin-top: 1em;
-    padding-left: 8em;
+    padding-left: 5.2em;
+    font-size: 3.3em;
   }
   .price-box-container .enroll-now {
     margin-top: 2em;
-  }
-  .price-per-week .price {
-    font-size: 3em;
   }
 }
 
@@ -346,23 +333,9 @@
     font-size: 16px;
   }
 
-  .plan-advantages {
-    margin-top: 1em;
-    padding-left: 5em;
-  }
-  .btn:link,
-  .btn:visited {
-    font-weight: 500;
-    font-size: 13px;
-  }
-
-  .header {
-    height: auto;
-  }
-
   .service-box .instructor-profile .btn {
-    width: 62%;
-    margin-left: 19%;
+    width: 52%;
+    margin-left: 24%;
   }
 
   .sticky-nav-list li {
@@ -376,5 +349,11 @@
 
   .about-us-box {
     width: 86%;
+  }
+}
+
+@media only screen and (max-width: 281px) {
+  html {
+    font-size: 20%;
   }
 }

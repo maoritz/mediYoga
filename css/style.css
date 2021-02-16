@@ -247,7 +247,7 @@ a:active {
 }
 
 .service-box p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
   color: #a9b7c4;
@@ -425,18 +425,17 @@ cite {
 .pricing-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 75rem 64rem;
+  grid-template-columns: 78rem 76rem;
 }
 
 .pricing-video {
-  text-align: center;
   vertical-align: baseline;
 }
 
 /* idth="700" height="745" */
 video {
-  width: 70rem;
-  height: 74.8rem;
+  width: 73rem;
+  height: 81.2rem;
   background: linear-gradient(
     to right,
     #898681,
@@ -456,11 +455,10 @@ video {
 
 .price-box-container {
   display: grid;
-  grid-template-columns: 12rem 31.5rem 20rem;
-  grid-template-rows: 18.7rem;
+  grid-template-columns: 14rem 39.5rem 22rem;
+  grid-template-rows: 20.7rem;
   border: #e3f0fb solid 1px;
   border-radius: 5px;
-  font-size: 1.5rem;
   margin-bottom: 2.5rem;
 }
 
@@ -472,11 +470,11 @@ video {
 }
 
 .enroll-plan {
-  padding-top: 2rem;
+  padding-top: 1em;
 }
 
 .i-icon {
-  font-size: 7rem;
+  font-size: 7.5em;
 }
 
 .checkmark-container {
@@ -491,11 +489,11 @@ video {
 
 .plan-advantages {
   text-align: center;
-  font-size: 16px;
+  font-size: 1.9em;
 }
 
 .plan-advantage {
-  margin-top: 1.5rem;
+  margin-top: 1em;
   text-align: start;
 }
 
@@ -506,7 +504,11 @@ video {
 .plan-type {
   margin-top: 5rem;
   text-align: start;
-  margin-left: 3rem;
+  margin-left: 4rem;
+}
+
+.per-week {
+  font-size: 1.6em;
 }
 
 .price-box-container .enroll-now {
@@ -515,7 +517,7 @@ video {
 
 .price-per-week .price {
   font-family: "Cormorant Garamond", serif;
-  font-size: 6rem;
+  font-size: 6em;
   color: #fa5a64;
 }
 
