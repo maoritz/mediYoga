@@ -13,14 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
     <title>MD</title>
 </head>
 <body>
     <header class="header">
         <nav>
-            <div class="row nav">
-                <div class="logo">MediYoga</div>
-                <ul class="main-nav">
+            <div class="row">
+                <div class="logo">Mediyoga</div>
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu"></ion-icon></a>
+                <ul class="main-nav js--main-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Pages</a></li>
                     <li><a href="#">Event</a></li>
@@ -31,19 +36,7 @@
                     <li><a href="#"><ion-icon name="cart"></ion-icon></a></li>
                     <li><a href="#"><ion-icon name="search-sharp"></ion-icon></a></li>
                 </ul>
-                <div class="sticky-nav">
-                    <ul class="sticky-nav-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Event</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#"><ion-icon name="cart"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon class="search-icon" name="search-sharp"></ion-icon></a></li>
-                    </ul>
-                </div>  
+           
             </div>
         </nav>
         <div class="hero-text-box row">
@@ -56,7 +49,7 @@
             </div>
         </div>
     </header>
-    <section class="programs-section">
+    <section class="programs-section js--programs-section">
         <h4>Upcoming programs</h4>
         <h2>Meditation, Yoga, Wellness <br> & Many More</h2>
         <div class="programs-container">
@@ -328,6 +321,11 @@
             </div>
         </div>
     </section>
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./script/index.js"></script>
 </body>
 </html>

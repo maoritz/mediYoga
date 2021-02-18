@@ -51,14 +51,14 @@
   }
 }
 
-@media only screen and (max-width: 1015px) {
+@media only screen and (max-width: 1060px) {
   /* ----------------------------------------------- */
   /* REUSEABLE */
   /* ----------------------------------------------- */
   .row,
   .nav {
     width: 100%;
-    padding: 2% 2%;
+    padding: 0 2%;
   }
 
   /* ----------------------------------------------- */
@@ -76,52 +76,30 @@
     margin: 12em 0 0 0;
   }
 }
-
-@media only screen and (max-width: 848px) {
-  /* ----------------------------------------------- */
-  /* STICKY NAVIGATOIN */
-  /* ----------------------------------------------- */
-  /* ----- NAVIGATOIN ----- */
+@media only screen and (max-width: 920px) {
+  /* ----- MOBILE NAVIGATION MENU ----- */
   .main-nav {
     display: none;
+    font-size: 1.4em;
+    width: 58%;
   }
-  .logo {
-    display: none;
+  .main-nav li {
+    text-align: start;
+    padding-bottom: 0.8em;
+    width: 4em;
   }
-
-  /* ----- STICKY NAVIGATOIN ----- */
-  .nav {
-    padding: 0;
+  .main-nav li:nth-child(7) {
+    margin-right: 3rem;
   }
-  .sticky-nav {
-    display: block;
-    z-index: 9999;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+  .main-nav li:nth-child(8) {
+    margin-right: 3rem;
   }
-  .sticky-nav-list {
-    list-style: none;
-    background-color: #f6fafe;
-    border-radius: 2px;
-    padding: 8px;
-    border-bottom: 1px #c2d1da solid;
-  }
-  .sticky-nav-list li {
+  .mobile-nav-icon {
     display: inline-block;
-    font-size: 15px;
-    margin-right: 1%;
-    padding-right: 1%;
-    text-align: center;
-    border-right: 1px #c2d1da solid;
-    font-size: 1em;
   }
-  .sticky-nav-list li:last-of-type {
-    border: none;
-    padding: 0;
-    margin: 0;
-  }
+}
 
+@media only screen and (max-width: 850px) {
   /* ----------------------------------------------- */
   /* PROGRAMS */
   /* ----------------------------------------------- */
@@ -251,8 +229,8 @@
   }
   .hero-text-box {
     position: relative;
-    padding-left: 6%;
-    padding-top: 22rem;
+    margin-left: 6%;
+    margin-top: 22rem;
     top: auto;
     left: auto;
     transform: unset;
@@ -341,16 +319,10 @@
   .per-week {
     font-size: 2em;
   }
-
-  .sticky-nav-list li {
-    font-size: 9px;
-  }
-
   .hero-text-box p {
     margin-bottom: 4em;
     margin-top: 2em;
   }
-
   .about-us-box {
     width: 86%;
   }

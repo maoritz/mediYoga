@@ -36,13 +36,19 @@ body {
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
 .row {
-  width: 120rem;
+  width: 125rem;
   margin: 0 auto;
 }
 
 section {
   text-align: center;
   margin: 12rem 0;
+}
+
+.logo {
+  font-family: "Meie Script", cursive;
+  font-size: 5.5rem;
+  display: inline-block;
 }
 
 /* ----- HEADINGS ----- */
@@ -133,7 +139,6 @@ a:active {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-bottom: 10rem;
 }
 
 .hero-text-box {
@@ -152,19 +157,16 @@ a:active {
 }
 
 /* ----- NAVIGATION ----- */
-.logo {
-  display: inline-block;
-}
 
-.nav {
+nav {
   padding-top: 3rem;
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
 .main-nav {
-  display: inline-block;
   float: right;
+  padding-top: 1.4em;
 }
 
 .main-nav li {
@@ -173,15 +175,35 @@ a:active {
 }
 
 .main-nav li:nth-child(7) {
-  margin-right: 8rem;
+  margin-right: 6rem;
 }
 
 .main-nav li:nth-child(8) {
   margin-right: 2rem;
 }
 
-.sticky-nav {
+/* ----- STICKY NAVIGATION ----- */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  z-index: 9999;
+  box-shadow: 0 2px 2px #efefef;
+  padding: 0 0;
+}
+
+/* ----- MOBILE NAVIGATION ----- */
+.mobile-nav-icon {
+  float: right;
+  cursor: pointer;
+  padding-top: 0.5em;
   display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 30px;
 }
 
 /* ----------------------------------------------- */
