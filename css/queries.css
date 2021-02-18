@@ -51,13 +51,14 @@
   }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1050px) {
   /* ----------------------------------------------- */
   /* REUSEABLE */
   /* ----------------------------------------------- */
-  .row {
+  .row,
+  nav {
     width: 100%;
-    padding: 2% 2%;
+    padding: 2%;
   }
 
   /* ----------------------------------------------- */
@@ -75,12 +76,12 @@
     margin: 12em 0 0 0;
   }
 }
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 960px) {
   /* ----- MOBILE NAVIGATION MENU ----- */
   .main-nav {
     display: none;
     font-size: 1.4em;
-    width: 58%;
+    width: 50%;
   }
   .main-nav li {
     text-align: start;
@@ -228,7 +229,7 @@
   }
   .hero-text-box {
     position: relative;
-    margin-left: 6%;
+    margin-left: 2%;
     margin-top: 22rem;
     top: auto;
     left: auto;
@@ -237,6 +238,9 @@
   .hero-text-box p {
     width: 77%;
     margin-bottom: 3.2em;
+  }
+  .mobile-nav-icon {
+    padding-top: 0;
   }
   cite {
     font-size: 14px;
@@ -324,6 +328,9 @@
   }
   .about-us-box {
     width: 86%;
+  }
+  .main-nav {
+    padding-top: 0.8em;
   }
 }
 
