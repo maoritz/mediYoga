@@ -55,8 +55,7 @@
   /* ----------------------------------------------- */
   /* REUSEABLE */
   /* ----------------------------------------------- */
-  .row,
-  nav {
+  .row {
     width: 100%;
     padding: 2%;
   }
@@ -80,21 +79,31 @@
   /* ----- MOBILE NAVIGATION MENU ----- */
   .main-nav {
     display: none;
-    font-size: 1.4em;
-    width: 55%;
+    position: fixed;
+    font-size: 1.2em;
     margin-left: 1%;
+    z-index: 9999;
+    left: 0;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 3px;
+    box-shadow: 0 2px 2px #efefef;
   }
+
   .main-nav li {
+    display: block;
     text-align: start;
-    padding-bottom: 0.8em;
-    width: 4em;
+    padding: 0.5em 2%;
+    width: 100%;
   }
-  .main-nav li:nth-child(7) {
-    margin-right: 3rem;
+  .main-nav li::after {
+    content: "";
+    border-bottom: 0.1px solid #eaeef1;
+    display: block;
+    width: 96%;
+    margin-top: 0.5em;
   }
-  .main-nav li:nth-child(8) {
-    margin-right: 3rem;
-  }
+
   .mobile-nav-icon {
     display: inline-block;
   }
