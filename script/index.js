@@ -4,6 +4,7 @@ $(document).ready(function () {
     function (direction) {
       if (direction == "down") {
         $("nav").addClass("sticky");
+        $('nav').css('padding-top','0')
       } else {
         $("nav").removeClass("sticky");
       }

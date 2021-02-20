@@ -83,7 +83,7 @@
 
   .main-nav {
     display: none;
-    position: fixed;
+    position: absolute;
     font-size: 1.2em;
     margin-left: 1%;
     z-index: 9999;
@@ -97,7 +97,7 @@
   .main-nav li {
     display: block;
     text-align: start;
-    padding: 0.5em 2%;
+    padding: 0.7em 2%;
     width: 100%;
   }
   .main-nav li::after {
