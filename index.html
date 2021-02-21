@@ -15,24 +15,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">   
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
     <title>MD</title>
 </head>
 <body>
-    <header class="header">
-        <nav>
+    <header class="header js--header">
+        <nav >
             <div class="row">
                 <div class="logo">Mediyoga</div>
                 <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu"></ion-icon></a>
-                <ul class="main-nav js--main-nav ">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Event</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#" class="js--scroll-to-header" >Welcome</a></li>
+                    <li><a href="#" class="js--scroll-to-programs">Programs</a></li>
+                    <li><a href="#" class="js--scroll-to-about-us">About us</a></li>
+                    <li><a href="#" class="js--scroll-to-team">Our team</a></li>
+                    <li><a href="#" class="js--scroll-to-pricing">Plans</a></li>
                     <li><a href="#"><ion-icon name="cart"></ion-icon></a></li>
                     <li><a href="#"><ion-icon name="search-sharp"></ion-icon></a></li>
                 </ul>
@@ -44,14 +46,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar scelerisque lorem, vitae euismod ante faucibus vel Integer vulputate.</p>
             <div>
                 <a href="#" class="btn hero-buttons" >Sign up now</a>
-                <a href="#" class="btn hero-buttons">View Schedule</a>
+                <a href="#" class="btn btn-ghost hero-buttons js--scroll-to-schedule">View Schedule</a>
             </div>
         </div>
     </header>
-    <section class="programs-section js--programs-section">
+    <section class="programs-section js--programs-section ">
         <h4>Upcoming programs</h4>
         <h2>Meditation, Yoga, Wellness <br> & Many More</h2>
-        <div class="programs-container">
+        <div class="programs-container js--wp-1">
             <div class="program-box">
                 <img src="./img/mindfullness-woman.png" class="program-img" alt="mindfulness">
                 <h3>Mindfulness Training</h3>
@@ -69,13 +71,13 @@
             </div>
         </div>
     </section>
-    <section class="about-us-section">
+    <section class="about-us-section js--about-us-section">
         <div class="about-us-container">
             <img src="./img/about-us-background.png" class="about-us-image" alt="woman in yoga position">
             <div class="about-us-box">
                 <h4>About us</h4>
                 <h2>Take your Yoga to the <br> next level with us</h2>
-                <p>
+                <p class="js--wp-2">
                     Adipisci quos accumsan recusandae at mollitia lobortis omnis illum invertore, sed penatibus! Felis nibh nostra placerat, dolorem viverra reprehenderit. Duis fuga natus labore diamlorem aptent neque. <br> <br> Adipisci quos accumsan recusandae at mollitia lobortis omnis illum invertore.  
                 </p>
                 <a href="#" class="btn">Learn More</a>
@@ -85,7 +87,7 @@
     <section class="why-choose-us-section">
         <h4>Why choose us</h4>
         <h2>Service we provide</h2>
-        <div class="service-container">
+        <div class="service-container js--wp-3">
             <div class="service-box">
                 <img src="./img/parental-yoga2.png" class="service-img" alt="mindfulness">
                 <h3>Parental Yoga</h3>
@@ -133,14 +135,12 @@
                 <div class="discount-header"><h2>Get 10% Discount for <br> all Yoga Classes</h2></div>
                 <div class="discount-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam corporis veniam, veritatis sed, officiis inventore fugiat natus aperiam eosiste quaerat distinctio maiores</div>
             </div>
-            <div class="discount-button">
+            <div class="discount-button js--wp-4">
                 <a href="#" class="btn-discount btn">Enroll Now</a>
             </div>
         </div>
-       
     </section>
-
-    <section class="schedule-section">
+    <section class="schedule-section js--Schedule-section">
         <h4>Schedule</h4>
         <h2>Classes time table</h2>
         <ul class="schedule-nav">
@@ -194,18 +194,17 @@
                 <div class="schedule-item hours-row gray-background">Movement<br> <div>05:00 - 06:00</div></div>                
         </div>
     </section>
-    <section class="team-section">
+    <section class="team-section js--team-section">
         <h4>Team</h4>
         <h2>Meet Our Talented Team</h2>
-        <div class="team-container">
+        <div class="team-container js--wp-5">
             <div><img class="team-image" src="./img/Taylor_Audrey-1.png" alt="Meditation Instructor"></div>
             <div><img class="team-image" src="./img/Natheneal_Down-2.png" alt="Yoga Instructor"></div>
             <div><img class="team-image" src="./img/Victoria_Nevaeh-3.png" alt="Yoga Instructor"></div>
             <div><img class="team-image" src="./img/Michael_James-4.png" alt="Yoga Instructor"></div>
         </div>
     </section>
-
-    <section class="pricing-section">
+    <section class="pricing-section js--pricing-section">
         <h4 class="pricing-headings-queries">Pricing</h4>
         <h2 class="pricing-headings-queries">Our Pricing Plans</h2>
         <div class="pricing-container">

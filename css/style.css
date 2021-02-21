@@ -111,6 +111,7 @@ a:active {
 }
 
 /* ----- BUTTONS ----- */
+
 .btn:link,
 .btn:visited {
   background-color: #0c2e4e;
@@ -120,11 +121,21 @@ a:active {
   font-weight: 500;
   font-size: 1.8rem;
   width: fit-content;
+  border: 1px solid #0c2e4e;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  background-color: transparent;
+  border: #0c2e4e solid 1px;
+  color: #0c2e4e;
 }
 
 .btn:hover,
 .btn:active {
   background-color: #fa5a64;
+  color: white;
+  border: 1px solid #fa5a64;
 }
 
 /* ----------------------------------------------- */
@@ -143,7 +154,7 @@ a:active {
 
 .hero-text-box {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -174,11 +185,11 @@ nav {
   margin-right: 3rem;
 }
 
-.main-nav li:nth-child(7) {
+.main-nav li:nth-child(5) {
   margin-right: 6rem;
 }
 
-.main-nav li:nth-child(8) {
+.main-nav li:nth-child(6) {
   margin-right: 2rem;
 }
 
@@ -542,4 +553,22 @@ video {
 
 .pricing-headings-queries {
   display: none;
+}
+
+/* ----------------------------------------------- */
+/* ANIMATIONS */
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-5 {
+  opacity: 0;
+}
+
+.js--wp-1.animate__animated,
+.js--wp-2.animate__animated,
+.js--wp-3.animate__animated,
+.js--wp-5.animate__animated {
+  opacity: 1;
 }
