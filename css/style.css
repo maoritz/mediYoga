@@ -205,14 +205,19 @@ nav {
 }
 
 /* ----- MOBILE NAVIGATION ----- */
-.mobile-nav-icon {
+.mobile-nav-button {
   float: right;
   cursor: pointer;
   padding-top: 0.8em;
   display: none;
 }
 
-.mobile-nav-icon ion-icon {
+.mobile-nav-button:hover,
+.mobile-nav-button:active {
+  color: #0c2e4e;
+}
+
+.mobile-nav-button ion-icon {
   font-size: 30px;
 }
 

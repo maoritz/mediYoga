@@ -16,7 +16,15 @@ $(document).ready(function () {
   // For the mobile menu
   $('.js--nav-icon').click(function(){
       const nav = $('.js--main-nav');
-      nav.slideToggle(200)
+      const icon = $('.mobile-nav-icon')
+      if (icon.attr('name') == 'menu'){
+        nav.slideToggle(200)
+        icon.attr('name','close')
+      }else{
+        nav.slideToggle(200)
+        icon.attr('name','menu')
+      }
+ 
   });
 
   // Scroll on buttons
