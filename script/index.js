@@ -6,7 +6,6 @@ $(document).ready(function () {
         $("nav").addClass("sticky");
         $('nav').css('padding-top','0')
       } else {
-        $('nav').css('padding-top','3rem')
         $("nav").removeClass("sticky");
       }
     },
