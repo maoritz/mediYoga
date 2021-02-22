@@ -84,4 +84,73 @@ $(document).ready(function () {
     offset: '65%'
   })
 
+// comments from api
+  async function showAuthorName() {
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    const usersArray = await response.json();
+    const arrayLength = usersArray.length
+    const randomNumber = Math.floor(Math.random()* arrayLength);
+    const name = usersArray[randomNumber].name;
+    
+    $(`.js--costumer-name`).append(`${name}`);
+    
+  }catch (err) {
+    console.log(err);
+  }
+}
+
+  async function showComments() {
+    try {
+      const response = await fetch("https://jsonplaceholder.typicode.com/comments");
+      const commentsArray = await response.json();
+      const arrayLength = commentsArray.length
+      const randomNumber = Math.floor(Math.random()* arrayLength);
+      const comment = commentsArray[randomNumber].body;
+      
+      $(`.js--customer-comment`).append(`<p>${comment}</p>`);
+      
+    }catch (err) {
+      console.log(err);
+    }
+  }
+showAuthorName()
+showComments()
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+// async function showComments() {
+  //   try {
+  //     const response = await fetch(
+  //       "https://jsonplaceholder.typicode.com/comments"
+  //     );
+  //     const commentsArray = await response.json();
+        
+  //     console.log(commentsArray);
+  //     const commentContainer = $(".comments-container");
+  //     const comment = commentsArray[name].body;
+  //     commentContainer.append(`
+  //     <div class=comment id=comment${i}>
+  //       <blockquote>
+  //         ${comment}
+  //       </blockquote>
+  //     </div>`);
+
+  //   }
+  //    catch (err) {
+  //     console.log(err);
+  //   }
+  // }
+
+  // showComments();
