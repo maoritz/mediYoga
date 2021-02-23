@@ -114,8 +114,32 @@ $(document).ready(function () {
       console.log(err);
     }
   }
-showAuthorName()
-showComments()
+
+  async function showYogaImages(){
+    try{
+      const clientId ='GZ2Wuj8igsOyV5iHNF0FxjoPP2kuxrlYIo2hUNE_3qo'
+      const photosContainer = $('.photos-container')
+      let url = `https://api.unsplash.com//search/photos?query=yoga-indoor&client_id=${clientId}`
+      const response = await fetch(`${url}`);
+      const data = await response.json()
+      let imagesArrays = data.results
+      console.log(imagesArrays)
+      let index = 0
+      for (let i = 0; i < 3; i++) {
+        const div = $(`.image-column:nth-child(${i+1})`)
+        for (let j = 0; j < 3; j++) {
+          div.append(`<img src="${imagesArrays[index].urls.regular}" alt="">`)
+          index += 1
+        }
+      } 
+      
+    }catch (err){
+      console.log(err)
+    }
+  }
+  showYogaImages()
+  showAuthorName()
+  showComments()
 })
 
 

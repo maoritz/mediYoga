@@ -268,7 +268,6 @@ nav {
 /* ----------------------------------------------- */
 /* WHY CHOOSE US SECTION */
 /* ----------------------------------------------- */
-
 .service-container {
   display: grid;
   grid-template-columns: repeat(3, 34rem);
@@ -335,7 +334,6 @@ cite {
 /* ----------------------------------------------- */
 /* DISCOUNT SECTION */
 /* ----------------------------------------------- */
-
 .discount-section {
   color: white;
   background-color: #0c2e4e;
@@ -438,9 +436,60 @@ cite {
 }
 
 /* ----------------------------------------------- */
+/* COMMENTS SECTION */
+/* ----------------------------------------------- */
+.photos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin: 0 auto;
+  height: 85vh;
+  width: 90%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.photos-container img {
+  max-height: 50em;
+}
+
+/* ----------------------------------------------- */
+/* COMMENTS SECTION */
+/* ----------------------------------------------- */
+.comments-container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5%;
+}
+
+.comments-container p::before {
+  content: "\201C";
+  display: block;
+  font-size: 25em;
+  margin-top: 0.4em;
+  color: #fddfe1;
+}
+.comments-container p {
+  max-width: 50ch;
+  font-weight: 500;
+}
+.comments-container img {
+  height: 6em;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+.comments-container cite {
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+.custumer {
+  font-size: 1.5em;
+}
+
+/* ----------------------------------------------- */
 /* OUR TEAM SECTION */
 /* ----------------------------------------------- */
-
 .team-container {
   display: grid;
   grid-template-columns: repeat(4, 26rem);
@@ -563,43 +612,8 @@ video {
 }
 
 /* ----------------------------------------------- */
-/* comments SECTION */
-/* ----------------------------------------------- */
-
-.comments-container {
-  display: grid;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 5%;
-}
-
-.comments-container p::before {
-  content: "\201C";
-  display: block;
-  font-size: 25em;
-  margin-top: 0.4em;
-  color: #fddfe1;
-}
-.comments-container p {
-  max-width: 50ch;
-  font-weight: 500;
-}
-.comments-container img {
-  height: 6em;
-  border-radius: 50%;
-  margin-bottom: 1em;
-}
-.comments-container cite {
-  margin-bottom: 0.3em;
-  font-weight: bold;
-}
-.custumer {
-  font-size: 1.5em;
-}
-/* ----------------------------------------------- */
 /* ANIMATIONS */
 /* ----------------------------------------------- */
-
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
