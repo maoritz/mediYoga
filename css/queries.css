@@ -19,7 +19,7 @@
   /* ABOUT US */
   /* ----------------------------------------------- */
   .about-us-box {
-    width: 47%;
+    width: 72%;
     margin: 4em 0;
   }
   .about-us-image {
@@ -114,7 +114,7 @@
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 870px) {
   /* ----------------------------------------------- */
   /* PROGRAMS */
   /* ----------------------------------------------- */
@@ -213,6 +213,9 @@
   /* ----------------------------------------------- */
   h1 {
     font-size: 55px;
+  }
+  h3 {
+    font-size: 4em;
   }
   h4 {
     font-size: 20px;
@@ -347,9 +350,6 @@
   .hero-text-box p {
     margin-bottom: 4em;
     margin-top: 2em;
-  }
-  .about-us-box {
-    width: 86%;
   }
   .main-nav {
     font-size: 15px;
