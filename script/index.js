@@ -99,13 +99,14 @@ $(document).ready(function () {
     console.log(err);
   }
 }
-
+// comments author image from folder
   function showCommentsImage(){
     const randomNumber = Math.ceil(Math.random()* 3);
     console.log(randomNumber)
     $('.customer-image').append(`<img src="./img/comment-${randomNumber}.png" alt="author image">`)
   }
 
+// comments text from api
   async function showCommentsText() {
     try {
       const response = await fetch("https://jsonplaceholder.typicode.com/comments");
@@ -121,6 +122,7 @@ $(document).ready(function () {
     }
   }
 
+  // images from api
   async function showYogaImages(){
     try{
       const clientId ='GZ2Wuj8igsOyV5iHNF0FxjoPP2kuxrlYIo2hUNE_3qo'
@@ -140,7 +142,7 @@ $(document).ready(function () {
     }
   }
   showCommentsImage()
-  // showYogaImages()
+  showYogaImages()
   showAuthorName()
   showCommentsText()
 })
