@@ -439,24 +439,15 @@ cite {
 /* COMMENTS SECTION */
 /* ----------------------------------------------- */
 .photos-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  margin: 0 auto;
-  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
   width: 90%;
-  overflow: hidden;
-  justify-content: center;
+  margin: auto;
 }
-
 .photos-container img {
-  max-width: 100%;
-  margin-top: 4px;
-  margin-left: 6px;
-}
-
-.image-column {
-  overflow: hidden;
+  margin: 5px;
+  height: 25em;
+  flex-grow: 3;
 }
 
 /* ----------------------------------------------- */
