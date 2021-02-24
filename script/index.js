@@ -100,7 +100,13 @@ $(document).ready(function () {
   }
 }
 
-  async function showComments() {
+  function showCommentsImage(){
+    const randomNumber = Math.ceil(Math.random()* 3);
+    console.log(randomNumber)
+    $('.customer-image').append(`<img src="./img/comment-${randomNumber}.png" alt="author image">`)
+  }
+
+  async function showCommentsText() {
     try {
       const response = await fetch("https://jsonplaceholder.typicode.com/comments");
       const commentsArray = await response.json();
@@ -126,51 +132,15 @@ $(document).ready(function () {
       console.log(imagesArray)
       
       for (let index = 0; index < imagesArray.length; index++) {
-        photosContainer.append(`<img src="${imagesArray[index].urls.small}" alt="">`)
+        photosContainer.append(`<img src="${imagesArray[index].urls.small}" alt="${imagesArray[index].alt_description}">`)
       }
       
     }catch (err){
       console.log(err)
     }
   }
-  showYogaImages()
+  showCommentsImage()
+  // showYogaImages()
   showAuthorName()
-  showComments()
+  showCommentsText()
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-// async function showComments() {
-  //   try {
-  //     const response = await fetch(
-  //       "https://jsonplaceholder.typicode.com/comments"
-  //     );
-  //     const commentsArray = await response.json();
-        
-  //     console.log(commentsArray);
-  //     const commentContainer = $(".comments-container");
-  //     const comment = commentsArray[name].body;
-  //     commentContainer.append(`
-  //     <div class=comment id=comment${i}>
-  //       <blockquote>
-  //         ${comment}
-  //       </blockquote>
-  //     </div>`);
-
-  //   }
-  //    catch (err) {
-  //     console.log(err);
-  //   }
-  // }
-
-  // showComments();
