@@ -237,6 +237,7 @@
     display: block;
     padding: 1.2em 2.45em;
     margin-top: 2em;
+    width: max-content;
   }
 
   .comments-container img {

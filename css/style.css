@@ -445,7 +445,6 @@ cite {
   margin: auto;
 }
 .photos-container img {
-  flex: 1;
   margin: 5px;
   height: 25em;
   flex-grow: 3;
