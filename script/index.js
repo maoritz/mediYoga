@@ -101,7 +101,7 @@ $(document).ready(function () {
 }
 // comments author image from folder
   function showCommentsImage(){
-    const randomNumber = Math.ceil(Math.random()* 3);
+    const randomNumber = Math.ceil(Math.random()* 4);
     console.log(randomNumber)
     $('.customer-image').append(`<img src="./img/comment-${randomNumber}.png" alt="author image">`)
   }
@@ -134,7 +134,7 @@ $(document).ready(function () {
       console.log(imagesArray)
       
       for (let index = 0; index < imagesArray.length; index++) {
-        photosContainer.append(`<img src="${imagesArray[index].urls.small}" alt="${imagesArray[index].alt_description}">`)
+        photosContainer.append(`<img src="${imagesArray[index].urls.regular}" alt="${imagesArray[index].alt_description}">`)
       }
       
     }catch (err){

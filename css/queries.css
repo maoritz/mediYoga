@@ -95,6 +95,11 @@
     box-shadow: 0 2px 2px #efefef;
   }
 
+  .main-nav li:nth-child(6),
+  .main-nav li:nth-child(7) {
+    display: none;
+  }
+
   .main-nav li {
     display: block;
     text-align: start;
